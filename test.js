@@ -5,6 +5,6 @@ export let options = {
   duration: '60s',
 };
 export default function () {
-  http.get('http://test.k6.io');
+  http.get('http://docs.exnft.io');
   sleep(1);
 }
